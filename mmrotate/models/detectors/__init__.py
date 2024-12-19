@@ -3,7 +3,7 @@ from .h2rbox import H2RBoxDetector
 from .h2rbox_v2 import H2RBoxV2Detector
 from .refine_single_stage import RefineSingleStageDetector
 from .semi_base import RotatedSemiBaseDetector
-from .DDPLS import DDPLS
+from .ddpls import DDPLS
 
 __all__ = ['RefineSingleStageDetector', 'H2RBoxDetector', 'H2RBoxV2Detector',
            'DDPLS', 'RotatedSemiBaseDetector',
